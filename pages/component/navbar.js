@@ -7,7 +7,7 @@ export default function Navbar() {
     <div class="container">
       <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
         <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-            <h4 className="text-dark me-3">CARSOME</h4>
+            <h3 className="text-dark me-3">CARSOME</h3>
           
         </a>
 
@@ -24,7 +24,7 @@ export default function Navbar() {
         </form>
 
         <div class="text-end">
-          <button type="button" class="btn btn-outline-light me-2">Login</button>
+          <button type="button" class="btn btn-dark me-2">Login</button>
           <button type="button" class="btn btn-warning">Sign-up</button>
         </div>
       </div>
